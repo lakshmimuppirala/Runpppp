@@ -58,7 +58,7 @@ public class LinkedinHomePage extends BasePageWeb{
 		log.debug("Wait for the linked in home page title");
 		wait.until(ExpectedConditions.titleContains(HomePageTitle));
 		Assert.assertEquals(driver.getTitle(), HomePageTitle);
-		
+		System.out.println ("just checking");
 	}
 	
 	//verify the linkedin logo
@@ -67,12 +67,14 @@ public class LinkedinHomePage extends BasePageWeb{
 		log.debug("wait for the linkedin logo");
 		wait.until(ExpectedConditions.visibilityOf(linkedinLogo));
 		Assert.assertTrue(linkedinLogo.isDisplayed(),"Linkedin logo is not present");
+			System.out.println ("just checking");
 	}
 	
     public void clickSigninLink() throws InterruptedException
     {
     	log.debug("click on signin link in home page");
     	click(signInLink);
+	    	System.out.println ("just checking");
     	
     }
     
@@ -81,6 +83,7 @@ public class LinkedinHomePage extends BasePageWeb{
 		log.debug("Wait for the linkedin SingninPage title");
 		wait.until(ExpectedConditions.titleContains(SigninPageTitle));
 		Assert.assertEquals(driver.getTitle(), SigninPageTitle);
+			System.out.println ("just checking");
 		
 	}
 	
@@ -90,6 +93,7 @@ public class LinkedinHomePage extends BasePageWeb{
 			log.debug("wait for the signInHeaderText");
 			wait.until(ExpectedConditions.visibilityOf(signInHeaderText));
 			Assert.assertTrue(signInHeaderText.isDisplayed(),"signInHeaderText is not present");
+				System.out.println ("just checking");
 		}
 	//click  click button
 		
@@ -97,6 +101,7 @@ public class LinkedinHomePage extends BasePageWeb{
 		    {
 		    	log.debug("click on signin buttonin sign in page");
 		    	click(signInButton);
+			  	System.out.println ("just checking");
 		    	
 		    }
 		  
@@ -105,6 +110,7 @@ public class LinkedinHomePage extends BasePageWeb{
 		    {
 		    	log.debug("click on SkipButton in sign in process page");
 		    	click(skipBtn);
+			  	System.out.println ("just checking");
 		    }
 		    	
 		  //do login
