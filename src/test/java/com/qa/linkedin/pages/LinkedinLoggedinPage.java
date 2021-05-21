@@ -51,10 +51,11 @@ public class LinkedinLoggedinPage extends BasePageWeb {
 		
 		public void doLogut() throws InterruptedException
 		{
+			System.out.println ("YYYYYYYYYYYYYYYYYYYYYY");
 			log.debug("perform the logout operation from the application");
 			    click(profileImageIcon);
 				click(signOutLink);
-			System.out.println ("Hello Hai");
+			//System.out.println ("Hello Hai");
 		}
 		
 		//type the search button in people search
@@ -66,7 +67,7 @@ public class LinkedinLoggedinPage extends BasePageWeb {
 			log.debug("press the enter key to sudmit the search form");
 			searchEditBox.sendKeys(Keys.ENTER);
 			return new SearchResultPage();
-				System.out.println ("Hello Hai");
+				//System.out.println ("Hello Hai");
 		}
  
 	
