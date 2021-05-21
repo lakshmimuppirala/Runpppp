@@ -1,0 +1,69 @@
+2021-05-12 15:34:43 DEBUG TestBase:48 - Started Executing the browser lanuching setup()
+2021-05-12 15:34:43 DEBUG TestBase:49 - fetch the browser value from properties file
+2021-05-12 15:34:43 DEBUG TestBase:28 - creae a object for properties
+2021-05-12 15:34:43 DEBUG TestBase:30 - read the properties file
+2021-05-12 15:34:43 INFO  TestBase:34 - load all the properties
+2021-05-12 15:34:43 DEBUG TestBase:54 - setting executing my chrome browser file
+2021-05-12 15:34:45 DEBUG TestBase:72 - maximize the window
+2021-05-12 15:34:45 DEBUG TestBase:74 - add implicit wait
+2021-05-12 15:34:45 DEBUG TestBase:76 - create an object for WebDriverWait explicit wait command
+2021-05-12 15:34:45 DEBUG TestBase:78 - open the application url
+2021-05-12 15:34:45 DEBUG TestBase:28 - creae a object for properties
+2021-05-12 15:34:45 DEBUG TestBase:30 - read the properties file
+2021-05-12 15:34:45 INFO  TestBase:34 - load all the properties
+2021-05-12 15:34:46 DEBUG LinkedinHomePage:58 - Wait for the linked in home page title
+2021-05-12 15:34:46 DEBUG LinkedinHomePage:67 - wait for the linkedin logo
+2021-05-12 15:34:47 DEBUG LinkedinHomePage:74 - click on signin link in home page
+2021-05-12 15:34:47 DEBUG BasePageWeb:41 - wait for the element to be clickable or not
+2021-05-12 15:34:47 DEBUG BasePageWeb:43 - click on the given element
+2021-05-12 15:34:47 DEBUG LinkedinHomePage:90 - wait for the signInHeaderText
+2021-05-12 15:34:48 DEBUG TestBase:28 - creae a object for properties
+2021-05-12 15:34:48 DEBUG TestBase:30 - read the properties file
+2021-05-12 15:34:48 INFO  TestBase:34 - load all the properties
+2021-05-12 15:34:48 DEBUG TestBase:28 - creae a object for properties
+2021-05-12 15:34:48 DEBUG TestBase:30 - read the properties file
+2021-05-12 15:34:48 INFO  TestBase:34 - load all the properties
+2021-05-12 15:34:48 DEBUG LinkedinHomePage:113 - started login process.....
+2021-05-12 15:34:48 DEBUG LinkedinHomePage:98 - click on signin buttonin sign in page
+2021-05-12 15:34:48 DEBUG BasePageWeb:41 - wait for the element to be clickable or not
+2021-05-12 15:34:48 DEBUG BasePageWeb:43 - click on the given element
+2021-05-12 15:35:13 DEBUG ExcelUtils:29 - Specify the path of file :C:\eclipseworkspace\SaiHybridFrameworkMay62021\src\test\java\com\qa\linkedin\data\searchdata.xlsx
+2021-05-12 15:35:13 DEBUG ExcelUtils:32 - read the file
+2021-05-12 15:35:13 DEBUG ExcelUtils:34 - Load workbook
+2021-05-12 15:35:13 DEBUG ExcelUtils:39 - fetch the row count
+2021-05-12 15:35:13 DEBUG ExcelUtils:41 - number of rows in the excel sheet is-->4
+2021-05-12 15:35:13 DEBUG ExcelUtils:43 - number of columns in the excel sheet is -->1
+2021-05-12 15:35:13 DEBUG LinkedinLoggedinPage:46 - wait for the profile rail card
+2021-05-12 15:35:13 DEBUG LinkedinLoggedinPage:62 - perform the peopek search
+2021-05-12 15:35:16 DEBUG LinkedinLoggedinPage:65 - press the enter key to sudmit the search form
+2021-05-12 15:35:18 DEBUG BasePageWeb:41 - wait for the element to be clickable or not
+2021-05-12 15:35:19 DEBUG BasePageWeb:43 - click on the given element
+2021-05-12 15:35:22 DEBUG BasePageWeb:56 - wait for the element to be clickable or not
+2021-05-12 15:35:22 DEBUG BasePageWeb:59 - click an element using javascript click
+2021-05-12 15:35:22 DEBUG LinkedinLoggedinPage:46 - wait for the profile rail card
+2021-05-12 15:35:22 DEBUG LinkedinLoggedinPage:62 - perform the peopek search
+2021-05-12 15:35:25 DEBUG LinkedinLoggedinPage:65 - press the enter key to sudmit the search form
+2021-05-12 15:35:26 DEBUG BasePageWeb:41 - wait for the element to be clickable or not
+2021-05-12 15:35:26 DEBUG BasePageWeb:43 - click on the given element
+2021-05-12 15:35:29 DEBUG BasePageWeb:56 - wait for the element to be clickable or not
+2021-05-12 15:35:29 DEBUG BasePageWeb:59 - click an element using javascript click
+2021-05-12 15:35:29 DEBUG LinkedinLoggedinPage:46 - wait for the profile rail card
+2021-05-12 15:35:30 DEBUG LinkedinLoggedinPage:62 - perform the peopek search
+2021-05-12 15:35:32 DEBUG LinkedinLoggedinPage:65 - press the enter key to sudmit the search form
+2021-05-12 15:35:33 DEBUG BasePageWeb:41 - wait for the element to be clickable or not
+2021-05-12 15:35:33 DEBUG BasePageWeb:43 - click on the given element
+2021-05-12 15:35:36 DEBUG BasePageWeb:56 - wait for the element to be clickable or not
+2021-05-12 15:35:36 DEBUG BasePageWeb:59 - click an element using javascript click
+2021-05-12 15:35:36 DEBUG LinkedinLoggedinPage:46 - wait for the profile rail card
+2021-05-12 15:35:36 DEBUG LinkedinLoggedinPage:62 - perform the peopek search
+2021-05-12 15:35:39 DEBUG LinkedinLoggedinPage:65 - press the enter key to sudmit the search form
+2021-05-12 15:35:40 DEBUG BasePageWeb:41 - wait for the element to be clickable or not
+2021-05-12 15:35:40 DEBUG BasePageWeb:43 - click on the given element
+2021-05-12 15:35:43 DEBUG BasePageWeb:56 - wait for the element to be clickable or not
+2021-05-12 15:35:43 DEBUG BasePageWeb:59 - click an element using javascript click
+2021-05-12 15:35:43 DEBUG LinkedinLoggedinPage:54 - perform the logout operation from the application
+2021-05-12 15:35:43 DEBUG BasePageWeb:41 - wait for the element to be clickable or not
+2021-05-12 15:35:43 DEBUG BasePageWeb:43 - click on the given element
+2021-05-12 15:35:44 DEBUG BasePageWeb:41 - wait for the element to be clickable or not
+2021-05-12 15:35:44 DEBUG BasePageWeb:43 - click on the given element
+2021-05-12 15:35:44 DEBUG TestBase:86 - closing the browser
